@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: red;
+    width: 100%;
+    height: 10vh;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header .navbar{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    font-size: 19px;
+    gap: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main{
+    margin: 0;
+    background-image: url("new.jpg");
+    font-family: Arial;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px #333;
+}
+#one{
+    flex: 1;
+    padding-top: 20px;
+    padding-left: 10px;
+    font-size: 30px;
+}
+
+.another{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 10px;
+    color: white;
+}
+
+#two{
+    padding-left: 40px;
+    color: white;
+    
+}
+#h22{
+    text-decoration: none;
+    color:white;
+
+}
+#h33{
+    text-decoration: none;
+    color:white;
+}
+#h44{
+    text-decoration: none;
+    color:white;
+}
+#h11{
+    text-decoration: none;
+    color:white;
+}
+
+
+.second{
+    display: flex;
+    height: 200px;
+    margin-top: 10px;
+    /* background-color: lightcyan; */
+    background-image: url("planing.jpeg");
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.second{
+    display: flex;
+    align-items: center;
+}
+
+#pr{
+    width: 50px;
+    height: 50px;
+    /* background-color: #911f1f; */
+    margin-top: 100px;
+    margin-left: 12px;
+    
+    
+}
+#product1:hover,#m2:hover,#supp:hover{
+    font-size: 25px;
+
+}
+#product1{
+    font-family: arial;
+    font-weight: bold;
+    margin-top: 100px;
+    /* background-color: #333; */
+    margin-left: 15px;
+    cursor: pointer;
+    flex: 1;
+    transition: font-size 1s ease-in-out
+}
+
+#management{
+    width: 50px;
+    height: 50px;
+    margin-top: 100px;
+    margin-left: 150px;
+    border-radius: 5px;
+}
+#m2{
+    font-family: arial;
+    font-weight: bold;
+    margin-top: 100px;
+    /* background-color: #333; */
+    margin-left: 8px;
+    cursor: pointer;
+    flex: 1;
+    transition: font-size 1s ease-in-out
+}
+#su{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+#support{
+    width: 50px;
+    height: 50px;
+    /* background-color: #911f1f; */
+    margin-top: 100px;
+    margin-left: 150px;
+    border-radius: 10px;
+    /* flex: 1; */
+}
+#supp{
+    font-family: arial;
+    font-weight: bold;
+    margin-top: 100px;
+    /* background-color: #333; */
+    margin-left: 8px;
+    cursor: pointer; 
+    flex: 1;
+    transition: font-size 1s ease-in-out
+}
+.discription{
+    background-color: rgb(179, 183, 183);
+    background-image: url("tec.jpg");
+    height: 150px;
+    /* width: 100px; */
+    border-style: solid;
+    border-width: 1px;
+    width: 400px;
+    box-shadow: 1px 1px 1px 1px rgb(97, 97, 97);
+    margin-top: 25px;
+    color: white;
+}
+#tech{
+    /* background-color: aqua; */
+    margin-top: 15px;
+    margin-left: 105px;
+    padding-left: 25px;
+    font-family: Arial;
+    font-weight: bold;
+    color: white;
+
+    
+}
+#ann{
+    background-color: rgb(179, 183, 183);
+    height: 150px;
+    /* width: 100px; */
+    border-style: solid;
+    border-width: 1px;
+    width: 400px;
+    box-shadow: 1px 1px 1px 1px rgb(97, 97, 97);
+    margin-top: 25px;
+    margin-left: 250px;
+    background-image: url("abstract.avif");
+    /* display: flex; */
+}
+#we{
+    padding-left: 25px;
+    font-weight: bold;
+    color: white;
+}
+#dsa,#java,#html,#css{
+    cursor: pointer;
+    padding: 2px;
+    color: white;
+}
+
+#about{
+    background-color: rgb(179, 183, 183);
+    height: 190px;
+    /* width: 100px; */
+    border-style: solid;
+    border-width: 1px;
+    width: 400px;
+    box-shadow: 1px 1px 1px 1px rgb(97, 97, 97);
+    margin-top: 25px;
+    margin-left: 450px;
+    display: flex;  
+    flex-direction: column;
+    background-image: url("tree.avif");
+}
+#ab1{
+    padding-left: 75px;
+    flex: 1;
+    color: white;
+}
+#abintro{
+    padding-left: 2px;
+    flex: 1;
+    color: white;
+}
+#footer{
+    background-color: #515151;
+    height: 300px;
+    /* margin-top: 20px; */
+}
+#f1{
+    padding-left: 500px;
+    font-weight: bold;
+    color: white;
+}
+#f2{
+    /* background-color: aqua; */
+    /* padding-top: 10px; */
+    margin-top: 45px;
+    color: azure;
+    
+}
+#home{
+    /* position: relative; */
+}
+
+#pichm{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+
+#h1{
+    width: 60px;
+    height: 60px;
+    margin-left: 5px;
+    margin-bottom: 2px;
+}
